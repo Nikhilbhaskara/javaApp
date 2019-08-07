@@ -27,18 +27,5 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
-    </build>
-      <distributionManagement>
-            <repository>
-                 <id>dev-azure-com-m1046004-m1046004</id>
-                 <url>https://pkgs.dev.azure.com/M1046004/_packaging/M1046004/maven/v1</url>
-            <releases>
-                 <enabled>true</enabled>
-            </releases>
-                  <snapshots>
-                      <enabled>true</enabled>
-              </snapshots>
-        </repository>
-      </distributionManagement>
+    </build>    
 </project>
-
